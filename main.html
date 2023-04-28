@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website of architects</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="myScript.js"></script>
+  </head>
+  <body>
+    <header class="main-page">
+        <a href="/" class="logo">
+            <img class="digital-header"  src="images/digital-header1.svg" alt="digital project"/>
+        </a>      
+        <a class="main">Головна </a>
+        <a class="gallery">Галерея </a>
+        <a class="projects">Проекти </a>
+        <a class="sertificates">Сертифікати</a>
+        <a class="contacts">Контакти</a>
+    </header>
+    <div class="project-nurtown">
+      <h3 class="pro">PROJECT</h3>
+      <h4 class="nur">NURTOWN</h4>
+      <div class="first_image">
+          <img class="first" src="images/1-1.png" alt="house" />
+      </div>
+      <button class="button-first-page-look">Переглянути <span class="arrow">&#8594;</span></button>
+      <a href="#" class="previous">&#8592;</a>
+      <a href="#" class="next">&#8594;</a>
+      <hr class="firstpage-line-first" />
+    </div>
+    <div class="page-numerous" >
+      <a href="#" class="firstpage-numerous">01</a>
+       <hr class="firstpage-line-second" />
+      <a href="#AboutCompany" class="secondpage-numerous">02</a>
+    </div>
+    <div class="about-company" id="AboutCompany">
+      <img class="second-house" src="images/2-1.png" alt="house" />
+      <img class="third-house" src="images/3-1.png" alt="house" />
+      <img class="four-house" src="images/4-1.png" alt="house" />
+      <h5 class="company" >Про компанію</h5>
+      <p class="description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
+      <button class="button-first-page-read">Читати <span class="arrow">&#8594;</span></button>
+    </div>
+    <div class="main-tasks">
+      <h5 class="tasks">Основні задачі</h5>
+      <div class="number1">1</div>
+      <div class="tasks-number1">Створення комфортних умов та підвищення якості обслуговування клієнтів</div>
+      <div class="number2">2</div>
+      <div class="tasks-number2">Постійно вдосконалювати якість наданих послуг шляхом навчання персоналу,
+        закупки нового обладнання та посиленої реклами на ринку</div>
+    </div>
+    <div class="our-projects">
+      <h5 class="project">Наші проекти</h5>
+      <img class="project-house-one" src="images/5-1.png" alt="smart house" />
+      <div class="project-house-one-text">Дозвільний центр</div>
+      <div class="project-house-one-detailtext">Детальніше</div>
+      <a href="#" class="detail">&#8594;</a>
+      <div class="shadow"></div>
+      <img class="project-house-two" src="images/6-1.png" alt="house" />
+      <img class="project-stadium" src="images/7-1.jpg" alt="stadium" />
+      <img class="project-appartements" src="images/8-1.jpg" alt="appartements"/>
+      <img class="project-monument" src="images/9-1.jpg" alt="monument" />
+      <button class="project-button">Всі проекти &#8594;</button>
+    </div>
+    <div class="contact-us">
+      <h5 class="call">Звʼязатися з нами</h5>
+      <div class="imgcontainer">
+    <img src="images/1-10.png" alt="Man" class="form1-man">
+  </div>
+      <form class="form-call-us" method="post">
+  <div class="container">
+    <label for="fname"><input type="text" placeholder="Ім'я" name="fname" required><br></label>
+    <label for="number">
+    <input type="tel" placeholder="Номер телефону*" name="number" required  size="20" minlength="9" maxlength="14"><br></label>
+    <label for="e-mail">
+    <input  type="email" placeholder="E-mail*" name="e-mail" required><br></label>
+    <label for="service">
+    <input type="text" placeholder="Послуга/товар,що цікавить" name="service"required><br></label>
+   <label class="form1-message" for="message">
+    <textarea id="message" name="message" placeholder="Повідомлення*" style="height:147px"></textarea><br>
+      <input type="checkbox" checked="checked" > Відправляючи заявку Ви погоджуєтесь з політикою конфіденційності  
+   </label><br>
+    <button type="submit">Відправити &#8594;</button>
+  </div>
+</form>
+    </div>
+    <footer>
+      <a href="/" class="logo">
+          <img class="digital-footer"  src="images/digital-footer1.svg"  alt="digital project"/>
+      </a>
+      <div class="information-contacts-footer">
+        <ul class="footer-list-column">
+          <li class="footer-name-column">Інформація</li>
+          <li class="footer-name-column">Контакти</li>
+        </ul>
+        <ul class="information-footer">
+          <li class="information-list">Головна</li>
+          <li class="information-list">Галерея</li>
+          <li class="information-list">Проекти</li>
+          <li class="information-list">Сертифікати</li>
+          <li class="information-list">Контакти</li>
+        </ul>
+ 
+        <ul class="contact-footer">
+          <li class="contact-list"><img src="images/location.png" alt="location"> 100000, Україна, м.Київ, вул. Шевченка 10</li>
+          <li class="contact-list"><img src="images/telefon.png" alt="telefon">+380950000000</li>
+          <li class="contact-list"><img src="images/letter.png" alt="letter">  project.digital@gmail.com</li>
+        </ul>
+      </div>
+      <hr class="footer-line">
+      <div class="footer-secure">
+        <span class="copyright">&#169;</span>
+         <div class="secure_text">2019 Digital Project. Всі права захищено.</div>
+      </div>
+    </footer>
+  </body>
+</html>

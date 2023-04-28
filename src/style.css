@@ -1,0 +1,679 @@
+body {
+  font-family: "TT Hoves";
+  font-style: normal;
+  position: relative;
+  width: 1440px;
+  height: 4052px;
+  background: #ffffff; 
+  margin: 0px;
+}
+.main-page {
+  position: absolute;
+  width: 1440px;
+  height: 102px;
+  left: 0px;
+  top: 0px;
+}
+.digital-header {
+  position: absolute;
+  left: 9.38%;
+  right: 85.76%;
+  top: 28.57%;
+  bottom: 28.57%;
+}
+h5 {
+  margin: 0px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+.main {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+  position: absolute;
+  left: 37.15%;
+  right: 58.12%;
+  top: 43.81%;
+  bottom: 44.76%;
+  text-decoration: underline overline;
+}
+.gallery {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+  position: absolute;
+  left: 46.04%;
+  right: 49.38%;
+  top: 43.81%;
+  bottom: 44.76%;
+}
+.projects {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+  position: absolute;
+  left: 54.79%;
+  right: 40.28%;
+  top: 43.81%;
+  bottom: 44.76%;
+}
+.sertificates {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+  position: absolute;
+  left: 63.89%;
+  right: 28.33%;
+  top: 43.81%;
+  bottom: 44.76%;
+}
+.contacts {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+  position: absolute;
+  left: 75.83%;
+  right: 18.68%;
+  top: 43.81%;
+  bottom: 44.76%;
+}
+.first {
+  position: absolute;
+  width: 770px;
+  height: 829px;
+  left: 535px;
+  top: 105px;
+  right: 135px;
+  bottom: 3118px;
+  background: #c4c4c4;
+}
+.pro {
+  position: absolute;
+  width: 277.76px;
+  height: 64px;
+  left: 135px;
+  top: 438px;
+  right: 1027px;
+  bottom: 3550px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+.nur {
+  position: absolute;
+  width: 331px;
+  height: 64px;
+  left: 135px;
+  top: 502px;
+  right: 974px;
+  bottom: 3486px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #333333;
+}
+.button-first-page-look {
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  left: 534px;
+  top: 870px;
+  background: #ffffff;
+  border: none;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.previous {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #f2f2f2;
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 135px;
+  top: 750px;
+  
+}
+
+.next {
+  background-color: #f9f9f9;
+  color: black;
+  position: absolute;
+  width: 52.95px;
+  height: 53px;
+  left: 210.94px;
+  top: 750px;
+  border: 1px solid #f2f2f2;
+}
+.firstpage-line-first {
+  color: #f2f2f2;
+  position: absolute;
+  width: 271px;
+  height: 0px;
+  left: 263px;
+  top: 770px;
+  border: 1px solid #f2f2f2;
+  transform: rotate(180deg);
+}
+.page-numerous{
+  
+width: 23.98px;
+height: 24px;
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+top: 799px;
+}
+.firstpage-numerous{
+  position: absolute;
+width: 40px;
+height: 24px;
+left: 135px;
+top: 835px;
+color: #BDBDBD;
+}
+.secondpage-numerous{
+  position: absolute;
+width: 40px;
+height: 24px;
+left: 240px;
+top: 835px;
+color: #BDBDBD;
+}
+.firstpage-line-second{
+position: absolute;
+width: 43.82px;
+height: 0px;
+left: 180px;
+top: 835px;
+border: 1px solid #E0E0E0;
+transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+}
+.about-company {
+  position: absolute;
+  width: 1170px;
+  height: 435px;
+  left: 135px;
+  top: 1054px;
+  background: #fbfbfb;
+}
+
+.second-house {
+  position: absolute;
+  width: 270px;
+  height: 265px;
+  left: 100px;
+  top: 30px;
+  right: 800px;
+  bottom: 140px;
+  background: #c4c4c4;
+}
+.third-house {
+  position: absolute;
+  width: 270px;
+  height: 345px;
+  left: 400px;
+  top: 60px;
+  right: 500px;
+  bottom: 30px;
+  background: #c4c4c4;
+}
+.four-house {
+  position: absolute;
+  width: 270px;
+  height: 140px;
+  left: 100px;
+  top: 325px;
+  right: 800px;
+  background: #c4c4c4;
+}
+.description {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  left: 700px;
+  top: 114px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.company {
+  position: absolute;
+  width: 354px;
+  height: 64px;
+  left: 700px;
+  top: 30px;
+  margin: 0px;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+.button-first-page-read {
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  left: 700px;
+  top: 334px;
+  background: #ffffff;
+  border: none;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+   cursor: pointer;
+}
+
+.tasks {
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  top: 1639px;
+  left: 135px;
+  right: 786px;
+  bottom: 2349px;
+}
+.number1 {
+  position: absolute;
+  width: 104px;
+  height: 140px;
+  left: 135px;
+  top: 1765px;
+  margin: 0px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 239px;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+}
+.tasks-number1 {
+  position: absolute;
+  width: 279px;
+  height: 144px;
+  left: 269px;
+  top: 1763px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  margin: 0px;
+}
+.number2 {
+  position: absolute;
+  width: 120px;
+  height: 140px;
+  left: 735px;
+  top: 1765px;
+  margin: 0px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 239px;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+}
+.tasks-number2 {
+  position: absolute;
+  width: 420px;
+  height: 144px;
+  left: 885px;
+  top: 1763px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  margin: 0px;
+}
+.project {
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  left: 135px;
+  top: 2027px;
+  margin-bottom: 60px;
+}
+.project-house-one {
+  position: absolute;
+  width: 570px;
+  height: 255px;
+  left: 135px;
+  top: 2151px;
+  z-index: 1;
+}
+.project-house-one-text {
+  position: absolute;
+  width: 413px;
+  height: 160px;
+  left: 214px;
+  top: 2150px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffff;
+  z-index: 3;
+}
+.project-house-one-detailtext{
+position: absolute;
+width: 93px;
+height: 12px;
+left: 214px;
+top: 2335px;
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #FFFFFF;
+z-index: 3;
+}
+.detail{
+  position: absolute;
+width: 24px;
+height: 24px;
+left: 319px;
+top: 2340px;
+color:#ffffff;
+z-index: 3;
+}
+.shadow {
+  position: absolute;
+  width: 570px;
+  height: 255px;
+  left: 135px;
+  top: 2151px;
+  background: #333333;
+  opacity: 0.8;
+  z-index: 2;
+}
+.project-house-two {
+  box-sizing: border-box;
+  position: absolute;
+  width: 570px;
+  height: 255px;
+  top: 2151px;
+  left: 735px;
+  border: 1px solid #000000;
+}
+.project-stadium {
+  position: absolute;
+  width: 270px;
+  height: 255px;
+  left: 135px;
+  top: 2436px;
+}
+.project-appartements {
+  position: absolute;
+  width: 470px;
+  height: 255px;
+  left: 435px;
+  top: 2436px;
+}
+.project-monument {
+  position: absolute;
+  width: 370px;
+  height: 255px;
+  left: 935px;
+  top: 2436px;
+}
+.project-button {
+  position: absolute;
+  width: 221.81px;
+  height: 71px;
+  left: 1083px;
+  top: 2721px;
+  background: #333333;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+   cursor: pointer;
+}
+.call {
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  left: 135px;
+  top: 2912px;
+}
+.form-call-us{
+  position: absolute;
+width: 391px;
+height: 590px;
+left: 135px;
+top: 3000px;
+background: #FFFFFF;
+} 
+ .form1-man{
+position: absolute;
+width: 749px;
+height: 369px;
+left: 556px;
+top: 2998px;
+}  
+
+button[type=submit] {
+  background-color: #333333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+    cursor: pointer;
+    width: 222px;
+height: 71px;
+}
+button[type=submit]:hover {
+  background-color: #F3F3F3;
+  color: #333333;
+  width: 222px;
+height: 71px;
+}
+input[type=text] ,[type=tel] , [type=email], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #F3F3F3;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+footer {
+  position: absolute;
+  width: 1440px;
+  height: 417px;
+  left: 0px;
+  top: 3635px;
+  background: #2c2c2c;
+}
+.digital-footer {
+  position: absolute;
+  width: 145px;
+  height: 94px;
+  left: 116px;
+  top: 58px;
+}
+.information-contacts-footer {
+  position: absolute;
+  left: 25%;
+  right: 32.99%;
+  top: 13.91%;
+  bottom: 31.18%;
+}
+.footer-list-column{
+  padding: 0;
+}
+.information-footer {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  display: list-item;
+  position: absolute;
+  padding-left: 0px;
+}
+.footer-name-column {
+  
+  padding: 0px;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  list-style:none;
+  display: inline-block;
+  margin: 0 185px 0 0;
+}
+
+.information-list{
+  margin-bottom: 16px;
+  font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.contact-list{
+  margin-bottom: 16px;
+  font-weight: 700;
+
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+.contact-footer {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  display: list-item;
+  position: absolute;
+  padding-left: 0px;
+  left: 45.21%;
+  right: 32.99%;
+  top: 24.7%;
+  bottom: 58.03%;
+}
+.footer-line{
+position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+bottom: 70px;
+mix-blend-mode: normal;
+opacity: 0.1;
+border: 1px solid #FFFFFF;}
+.footer-secure{
+  position: absolute;
+width: 258px;
+height: 22px;
+right: 591px;
+bottom: 24px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: rgba(200, 200, 200, 0.5);
+}
+.test{
+  margin-top: 50px;
+  font-size: 40px;
+  position: relative;
+}
+.test::after{
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #000000;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  transform: rotate(45deg);
+}
+.test::before{
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #000000;
+  display: inline-block;
+  position: absolute;
+  right: -40px;
+  top: 25px;
+  transform: rotate(-45deg);
+}
